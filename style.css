@@ -6,15 +6,10 @@
     padding: 0;
 }
 
-nav {
-    background-color: rgb(37, 9, 37);
-    color: white;
-    height: 65px;
-    font-size: 27px;
-    display: flex;
-    align-items: center;
-    padding: 0 12px;
-    font-family: "Roboto", sans-serif;
+.win {
+    background: linear-gradient(289deg, #7ea5f1, #ec9cec);
+    height: 729px;
+    
 }
 
 nav ul{
@@ -22,10 +17,10 @@ nav ul{
 }
 
 .gameContainer{
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 100px;
 }
 
 .container{
@@ -117,4 +112,4 @@ nav ul{
         grid-template-rows: repeat(3, 20vw);
         grid-template-columns: repeat(3, 20vw);
     }
-}
+} 
